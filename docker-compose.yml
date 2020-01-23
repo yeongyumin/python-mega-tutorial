@@ -6,3 +6,5 @@ services:
       - .:/usr/src/app
     ports:
       - "15000:5000"
+    env_file:
+      - .dev.env
